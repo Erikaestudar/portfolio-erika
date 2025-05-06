@@ -30,9 +30,6 @@ let form = document.querySelector("form")
 let nameInput = document.querySelector("#name")
 let messageInput = document.querySelector("#message")
 
-window.addEventListener("DOMContentLoaded", () => {
-    nameInput.focus()
-})
 
 form.addEventListener("submit", submitWhats)
 
